@@ -15,7 +15,7 @@ D:/Github/MMMG/MMMGken/SOTModeling
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50525
+61383
 Successfully changed project path to: D:/Github/MMMG/MMMGken/SOTModeling
 D:/Github/MMMG/MMMGken/SOTModeling
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Github/MMMG/MMMGken/SOTModeling
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8608] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2108681094 [EditorId] 2108681094 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28744] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1922200225 [EditorId] 1922200225 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8608] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2108681094 [EditorId] 2108681094 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28744] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1922200225 [EditorId] 1922200225 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VH7NEOC0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 7.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1751.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path D:/maya/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'D:/maya/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/maya/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/maya/2022.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005609 seconds.
-- Loaded All Assemblies, in  0.680 seconds
+Registered in 0.552048 seconds.
+- Loaded All Assemblies, in  7.009 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 351 ms
+Android Extension - Scanning For ADB Devices 262 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.778 seconds
-Domain Reload Profiling: 1458ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 7694ms
+	BeginReloadAssembly (4810ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (141ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (232ms)
-		LoadAssemblies (217ms)
+	RebuildCommonClasses (398ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (599ms)
+	LoadAllAssembliesAndSetupDomain (1192ms)
+		LoadAssemblies (4812ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (227ms)
-			TypeCache.Refresh (225ms)
-				TypeCache.ScanAssembly (207ms)
+		AnalyzeDomain (1187ms)
+			TypeCache.Refresh (1186ms)
+				TypeCache.ScanAssembly (910ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (778ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (686ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (702ms)
+		SetupLoadedEditorAssemblies (630ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (506ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (485ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,127 +120,54 @@ Domain Reload Profiling: 1458ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.909 seconds
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+- Loaded All Assemblies, in  7.303 seconds
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.001 seconds
-Domain Reload Profiling: 1909ms
-	BeginReloadAssembly (212ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (571ms)
-		LoadAssemblies (443ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (223ms)
-				TypeCache.ScanAssembly (200ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1002ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (782ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (561ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4473 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (2.1 MB). Loaded Objects now: 4931.
-Memory consumption went from 165.7 MB to 163.6 MB.
-Total: 5.495800 ms (FindLiveObjects: 0.660600 ms CreateObjectMapping: 0.428200 ms MarkObjects: 3.822000 ms  DeleteObjects: 0.583100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 244937.145240 seconds.
-  path: Assets/SimpleLowPolyNature/Prefabs/Water.prefab
-  artifactKey: Guid(8205d36f5448674429e263cd4800fd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleLowPolyNature/Prefabs/Water.prefab using Guid(8205d36f5448674429e263cd4800fd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191c1ea126e7e2f46db720c299f5ea9d') in 0.309100 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.541 seconds
-Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.474 seconds
-Domain Reload Profiling: 2014ms
-	BeginReloadAssembly (202ms)
+- Finished resetting the current domain, in  0.774 seconds
+Domain Reload Profiling: 8077ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (239ms)
-		LoadAssemblies (337ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (7046ms)
+		LoadAssemblies (6438ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1474ms)
+		AnalyzeDomain (701ms)
+			TypeCache.Refresh (673ms)
+				TypeCache.ScanAssembly (612ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (775ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (694ms)
+		SetupLoadedEditorAssemblies (601ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (502ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4425 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (2.1 MB). Loaded Objects now: 4955.
-Memory consumption went from 154.4 MB to 152.3 MB.
-Total: 9.847500 ms (FindLiveObjects: 0.539900 ms CreateObjectMapping: 0.417500 ms MarkObjects: 8.318800 ms  DeleteObjects: 0.569700 ms)
+Unloading 4479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (2.1 MB). Loaded Objects now: 4937.
+Memory consumption went from 181.9 MB to 179.7 MB.
+Total: 3.570600 ms (FindLiveObjects: 0.371100 ms CreateObjectMapping: 0.173000 ms MarkObjects: 2.623300 ms  DeleteObjects: 0.402100 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -257,17 +184,153 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 525.506654 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_02.png
-  artifactKey: Guid(f2a86d9c4950f4c4e81271677d2e2624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_02.png using Guid(f2a86d9c4950f4c4e81271677d2e2624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bfcceee88eee441775a3379072d8ec') in 0.084984 seconds
+  Time since last request: 304522.714722 seconds.
+  path: Assets/cAMPFIRE/FIRE_FIRE_Normal.1002.png
+  artifactKey: Guid(facf7134a30d1a24b95f321aca23327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_FIRE_Normal.1002.png using Guid(facf7134a30d1a24b95f321aca23327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63fe80a60f2ec4a7b372e476f54c338') in 0.062199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/cAMPFIRE/FIRE_STONE_Normal.1002.png
+  artifactKey: Guid(9fa96a8d8e7779e4c9749bb337bd95d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_STONE_Normal.1002.png using Guid(9fa96a8d8e7779e4c9749bb337bd95d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40434c80805641f99ab7b1221285e54d') in 0.021064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/cAMPFIRE/FIRE_STONE_MetallicSmoothness.1001.png
+  artifactKey: Guid(560945e26b328aa4db39d58f84fd78a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_STONE_MetallicSmoothness.1001.png using Guid(560945e26b328aa4db39d58f84fd78a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4207c5673be1f28881af360a9b479150') in 0.037472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/cAMPFIRE/FIRE_WOOD_AlbedoTransparency.1001.png
+  artifactKey: Guid(a2da42f707f4f5b499ec3de655c2a3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_WOOD_AlbedoTransparency.1001.png using Guid(a2da42f707f4f5b499ec3de655c2a3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd441dd9e0d6b1ec2f487815bb47269b8') in 0.019363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/cAMPFIRE/FIRE_STONE_AlbedoTransparency.1002.png
+  artifactKey: Guid(787f9b1d09ce60a4d8383354af683630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_STONE_AlbedoTransparency.1002.png using Guid(787f9b1d09ce60a4d8383354af683630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcec7a7bf130ed984ac7df16105c0db') in 0.036860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/cAMPFIRE/FIRE_STONE_MetallicSmoothness.1002.png
+  artifactKey: Guid(80a11957da0559f45aa0531ecc68978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_STONE_MetallicSmoothness.1002.png using Guid(80a11957da0559f45aa0531ecc68978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494ffebac51cb1fb5e3ef2aa35859f5c') in 0.015364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/cAMPFIRE/FIRE_FIRE_AlbedoTransparency.1001.png
+  artifactKey: Guid(59e672f6e8adf984fbf5bdf0fa4af640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_FIRE_AlbedoTransparency.1001.png using Guid(59e672f6e8adf984fbf5bdf0fa4af640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815d9d92900b29fbbbe3205a50ec22fd') in 0.021978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/cAMPFIRE/FIRE_STONE_Normal.1001.png
+  artifactKey: Guid(1d42da59b8b71be4c9f2eff45d85c75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_STONE_Normal.1001.png using Guid(1d42da59b8b71be4c9f2eff45d85c75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ad5ea876f831f7c1ba813f04b88c20') in 0.013267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/cAMPFIRE/New Material.mat
+  artifactKey: Guid(0f185f213c8ea234785ac1f8b5230214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/New Material.mat using Guid(0f185f213c8ea234785ac1f8b5230214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d0a741d28f5b0f2ab042314af61370') in 0.069157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/cAMPFIRE/FIRE_STONE_AlbedoTransparency.1001.png
+  artifactKey: Guid(9656c8e4e4f09484a92a04438a84570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_STONE_AlbedoTransparency.1001.png using Guid(9656c8e4e4f09484a92a04438a84570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42fd2de7c2b8c3a170a7ba81acd9cd4') in 0.019624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/cAMPFIRE/FIRE_WOOD_MetallicSmoothness.1001.png
+  artifactKey: Guid(f5fd4ac2b1e07124aab3c0af524ec7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_WOOD_MetallicSmoothness.1001.png using Guid(f5fd4ac2b1e07124aab3c0af524ec7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe09ef57c1633bed4c7afb5fdd8fa5e8') in 0.015873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/cAMPFIRE/FIRE_FIRE_Normal.1001.png
+  artifactKey: Guid(6fbda28f0ba220e49860295b2800f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_FIRE_Normal.1001.png using Guid(6fbda28f0ba220e49860295b2800f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b54b52ec97813ff47731d95a54da9a2') in 0.011080 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_03.png
-  artifactKey: Guid(44ec7a3e14f0b854d8926cad83222db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_03.png using Guid(44ec7a3e14f0b854d8926cad83222db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98044ab2580782b357869d4c60260f7b') in 0.021373 seconds
+  path: Assets/cAMPFIRE/FIRE_FIRE_AlbedoTransparency.1002.png
+  artifactKey: Guid(0ca5984a9e3c99b4d95d6d946b0cb463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_FIRE_AlbedoTransparency.1002.png using Guid(0ca5984a9e3c99b4d95d6d946b0cb463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6e34cdabb2e1ec107c4288e2927baf') in 0.011471 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/cAMPFIRE/FIRE_WOOD_Normal.1001.png
+  artifactKey: Guid(42492caa717bceb4d8067dc3a86c648e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_WOOD_Normal.1001.png using Guid(42492caa717bceb4d8067dc3a86c648e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d09437f688add805baf78d3002d01e') in 0.020634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/cAMPFIRE/FIRE_FIRE_MetallicSmoothness.1001.png
+  artifactKey: Guid(7a7bf554f9d674a49826042eb575729a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_FIRE_MetallicSmoothness.1001.png using Guid(7a7bf554f9d674a49826042eb575729a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361bde3f09a87f2ef5fb9429d8d072c0') in 0.013099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/cAMPFIRE/FIRE_WOOD_Normal.1002.png
+  artifactKey: Guid(d7cddf70d3c81484085466e9f83a298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/FIRE_WOOD_Normal.1002.png using Guid(d7cddf70d3c81484085466e9f83a298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d230b6d4cbfd82f4f40c525d058f5c') in 0.012114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1048.894044 seconds.
+  path: Assets/cAMPFIRE/Icosphere (1).prefab
+  artifactKey: Guid(dd4e80f368c8cd741865bc59246d3f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/Icosphere (1).prefab using Guid(dd4e80f368c8cd741865bc59246d3f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d84560f66baabfc344663bfba260fe') in 0.074220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/cAMPFIRE/sTONE.mat
+  artifactKey: Guid(512992650e6fe894b937cc9f0ad7514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/sTONE.mat using Guid(512992650e6fe894b937cc9f0ad7514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2322eaaad1cdf30f09a4560bbddff6e0') in 0.039983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/cAMPFIRE/wOOD.mat
+  artifactKey: Guid(747c27ca0de678c4488968a64875f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cAMPFIRE/wOOD.mat using Guid(747c27ca0de678c4488968a64875f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860689ee6b290cb23d0bd1da1f2a346e') in 0.042756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
