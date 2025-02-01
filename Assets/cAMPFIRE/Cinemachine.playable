@@ -683,10 +683,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 97.21666666666667
+    m_Start: 96.08333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 4633288306635286882}
-    m_Duration: 8.61666666666666
+    m_Duration: 9.75
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4908969574745767821}
     m_EaseInDuration: 0
@@ -1302,7 +1302,7 @@ MonoBehaviour:
     m_Start: 88.16666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 4914370660907424838}
-    m_Duration: 9.049999999999997
+    m_Duration: 7.25
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2979747720525706600}
     m_EaseInDuration: 0
@@ -4368,11 +4368,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 67.15
+    m_PostExtrapolationTime: 66
     m_PreExtrapolationTime: 15.350000000000001
     m_DisplayName: SHIP
   - m_Version: 1
-    m_Start: 97.5
+    m_Start: 96.35
     m_ClipIn: 0
     m_Asset: {fileID: -8051194038463460345}
     m_Duration: 8.333333333333329
